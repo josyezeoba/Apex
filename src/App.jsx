@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import BentoGrid from "./components/BentoGrid";
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
       <Header />
       <main>
         <Hero />
+        <BentoGrid />
       </main>
     </div>
   );
